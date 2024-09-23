@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-be-vietnam {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+:root {
+  --dark-1: #08090d;
+  --dark-2: #001d01;
+  --champ-green: #0ddb93;
+  --tile-grey: #939ea3;
+  --border-grey: #304454;
+}
+.bg-dark-1 {
+  background-color: var(--dark-1);
+}
+.bg-champ-green {
+  background-color: var(--champ-green);
+}
+.text-dark-1 {
+  color: var(--dark-1);
+}
+.text-dark-2 {
+  color: var(--dark-2);
+}
+.text-tile-grey {
+  color: var(--tile-grey);
+}
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  vertical-align: middle;
+}

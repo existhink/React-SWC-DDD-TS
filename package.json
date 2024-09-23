@@ -1,0 +1,44 @@
+{
+  "name": "react-swc-ddd-ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b && vite build",
+    "generate:module": "node module.js",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "start:dev": "node check-and-start.js"
+  },
+  "dependencies": {
+    "axios": "latest",
+    "chalk": "latest",
+    "fast-glob": "latest",
+    "minimatch": "latest",
+    "mitt": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "unplugin-auto-import": "latest",
+    "unplugin-imagemin": "latest",
+    "vite-plugin-compression": "latest",
+    "vite-plugin-remove-console": "latest",
+    "vite-plugin-svg-icons": "latest"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@vitejs/plugin-react-swc": "latest",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "eslint-plugin-react-refresh": "latest",
+    "globals": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest",
+    "typescript-eslint": "latest",
+    "vite": "latest"
+  }
+}
